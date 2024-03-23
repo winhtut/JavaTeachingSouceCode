@@ -1,13 +1,28 @@
-public class Main {
-    public static void main(String[] args) {
+//public class Main {
+//    public static void main(String[] args) {
+//
+//        Book book1 = new Book("PythonDeepDive","WinHtut",2020);
+//        Book book2 = new Book("DDSA","WinHtut",2023);
+//
+//        Library library= new Library();
+//        library.addBook(book1);
+//        library.addBook(book2);
+//        library.displayBooks();
+//
+//    }
+//}
 
-        Book book1 = new Book("PythonDeepDive","WinHtut",2020);
-        Book book2 = new Book("DDSA","WinHtut",2023);
+public class Main{
 
-        Library library= new Library();
-        library.addBook(book1);
-        library.addBook(book2);
-        library.displayBooks();
+    public static void main(String[] args){
+        // instance
+        Animal myDog = new Dog("PhyuLone");
+        Animal myCat = new Cat("ShwWar");
 
+
+        myDog.makeSound();
+        myCat.makeSound();
     }
+
+
 }

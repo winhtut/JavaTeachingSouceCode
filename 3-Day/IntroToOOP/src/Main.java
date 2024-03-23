@@ -12,17 +12,27 @@
 //    }
 //}
 
-public class Main{
+//public class Main{
+//
+//    public static void main(String[] args){
+//        // instance
+//        Animal myDog = new Dog("PhyuLone");
+//        Animal myCat = new Cat("ShwWar");
+//
+//
+//        myDog.makeSound();
+//        myCat.makeSound();
+//    }
+//
+//
+//}
 
-    public static void main(String[] args){
-        // instance
-        Animal myDog = new Dog("PhyuLone");
-        Animal myCat = new Cat("ShwWar");
+public class Main {
 
+    public static void main (String[] args){
 
-        myDog.makeSound();
-        myCat.makeSound();
+        Circle circle = new Circle(10.0);
+
+        circle.display();
     }
-
-
 }
